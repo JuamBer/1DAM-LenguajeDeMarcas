@@ -1,0 +1,16 @@
+<!ELEMENT vehiculos(coche+)>   
+<!ELEMENT coche(marca,modelo,motor,matricula,km,precio,extras,galeria)>   
+<!ELEMENT marca(#PCDATA)> 
+<!ELEMENT modelo(#PCDATA)> 
+<!ELEMENT motor(#PCDATA)> 
+<!ELEMENT matricula(#PCDATA)> 
+<!ELEMENT km(#PCDATA)> 
+<!ELEMENT precio(original,oferta)>   
+<!ELEMENT extras(#PCDATA)> 
+<!ELEMENT galeria(foto+)> 
+
+<!ELEMENT original(#PCDATA)> 
+<!ELEMENT oferta(#PCDATA)> 
+
+<!ELEMENT foto(#PCDATA)> 
+<!ATTLIST foto ruta CDATA #REQUIRED>

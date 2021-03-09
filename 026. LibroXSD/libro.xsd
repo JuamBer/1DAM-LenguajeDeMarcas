@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="libros">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="libro" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="libro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="isbn" type="xs:string"/>
+        <xs:element name="titulo" type="xs:string"/>
+        <xs:element ref="nivel"/>
+        <xs:element ref="autores"/>
+        <xs:element name="editorial" type="xs:string"/>
+        <xs:element name="fecha_publicacion" type="xs:string"/>
+        <xs:element ref="webs"/>
+        <xs:element name="precio" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nivel">
+    <xs:complexType>
+      <xs:attribute name="tratamiento" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="autores">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="autor" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="webs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="web" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="web">
+    <xs:complexType mixed="true">
+      <xs:attribute name="ruta" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

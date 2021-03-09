@@ -1,0 +1,53 @@
+body {
+    background: palegoldenrod;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 17px;
+    text-align: justify;
+    font-style: italic;
+}
+.caja {
+    background: orange;
+    border: 4px   rgb(170, 98, 34) dashed;
+    width: 20%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    min-height: 300px;
+    position: relative;
+}
+
+.caja p {
+    position: relative;
+    font-size: 20px;
+    
+}
+.titulo {
+    position: absolute;
+    top:0;
+    margin-left: 5%;
+    margin-top: -20px;
+    padding: 10px;
+    font-size: 20px;
+    width: 70%;
+    background:  rgb(170, 98, 34);
+    font-style: italic;
+    color:white;
+}
+
+.caja div.invi {
+    width: 50px;
+    height: 60px;
+    float: left;
+}
+.caja span {
+    position: absolute;
+    top: 0;
+    font-style:normal;
+    margin-top: 0px;
+    font-size: 50px;
+    color: rgb(170, 98, 34);
+}

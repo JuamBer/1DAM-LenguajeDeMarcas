@@ -1,0 +1,32 @@
+aside{
+    width: 15%;
+    float: left;
+    height: 100vh;
+    position: fixed;
+}
+aside ul {
+    
+    list-style: none;
+}
+.main {
+    margin-left: 15%;
+    width: 80%;
+}
+.main .Persona {
+    margin-left: 10%;
+    width: 80%;
+    border: 3px black solid ;
+    margin-bottom: 20px;
+}
+.main .Persona .Titulo{
+    width: 100%;
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: rgb(127, 127, 211);
+}
+h1  {
+    width: 100%;
+    background: rgb(127, 127, 211);
+    text-align: right;
+}

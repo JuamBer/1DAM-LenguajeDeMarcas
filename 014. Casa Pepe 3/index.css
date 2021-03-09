@@ -1,0 +1,72 @@
+body{
+    margin: 5%;
+    padding: 2%;
+}
+h1.uno{
+    background: #828282;
+    position: absolute;
+    top: 0;
+    height: 25%;
+    width: 100%;
+    left: 0;
+    
+}
+aside{
+    background: yellow;
+    position: absolute;
+    width: 25%;
+    top:25%;
+    bottom:25%;
+    left: 75%;
+    
+}
+section{
+    background: blue;
+    padding-top: 0%;
+    width: 75%;
+    left: 0;
+    top:25%;
+    bottom:25%;
+    position: absolute;
+    overflow: hidden
+    
+}
+
+article{
+    border: skyblue 3px dashed;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+article h2.dos{
+    border-top: none;
+    border-bottom: none;
+    background: white;
+    color: blue;
+}
+article ul{
+    background: blue;
+    color: white;
+    border-top: none;
+    margin-top: -1%;
+    
+    
+}
+p.dinero{
+    color:white;
+}
+p.pie{
+    color: blue;
+    background: white;
+    margin-bottom: 10px;
+}
+footer.final{
+    background: #828282;
+    position: absolute;
+    bottom:0%;
+    top:75%;
+    width: 100%;
+    left:0;
+}

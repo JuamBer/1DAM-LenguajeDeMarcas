@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE vehiculos SYSTEM "coche.dtd">
+<vehiculos>
+    <coche>
+        <marca>Renault</marca>
+        <modelo>R4</modelo>
+        <motor>SCD400</motor>
+        <matricula>5604322</matricula>
+        <km>1000</km>
+        <precio>
+            <original>12000</original>
+            <oferta>10000</oferta>
+        </precio>
+        <extras></extras>
+        <galeria>
+            <foto ruta="ruta"/>
+            <foto ruta="ruta"/>
+            <foto ruta="ruta"/>
+        </galeria>
+    </coche>
+    <coche>
+        <marca>Tesla</marca>
+        <modelo>Model S</modelo>
+        <motor>Perseverance</motor>
+        <matricula>9803332</matricula>
+        <km>17800</km>
+        <precio>
+            <original>35000</original>
+            <oferta>32000</oferta>
+        </precio>
+        <extras></extras>
+        <galeria>
+            <foto ruta="ruta"/>
+            <foto ruta="ruta"/>
+            <foto ruta="ruta"/>
+        </galeria>
+    </coche>
+    <coche>
+        <marca>Seat</marca>
+        <modelo>León</modelo>
+        <motor>Kaval-N456</motor>
+        <matricula>9912751</matricula>
+        <km>30000</km>
+        <precio>
+            <original>7000</original>
+            <oferta>4000</oferta>
+        </precio>
+        <extras></extras>
+        <galeria>
+            <foto ruta="ruta"/>
+            <foto ruta="ruta"/>
+            <foto ruta="ruta"/>
+        </galeria>
+    </coche>
+    <coche>
+        <marca>Ford</marca>
+        <modelo>new Experience</modelo>
+        <motor>OPD-RTDS</motor>
+        <matricula>22121872</matricula>
+        <km>0</km>
+        <precio>
+            <original>20000</original>
+            <oferta>17000</oferta>
+        </precio>
+        <extras></extras>
+        <galeria>
+            <foto ruta="ruta"/>
+            <foto ruta="ruta"/>
+            <foto ruta="ruta"/>
+        </galeria>
+    </coche>
+    <coche>
+        <marca>Subaru</marca>
+        <modelo>Alkulina</modelo>
+        <motor>7644-GHA</motor>
+        <matricula>57844296</matricula>
+        <km>50000</km>
+        <precio>
+            <original>40000</original>
+            <oferta>34000</oferta>
+        </precio>
+        <extras></extras>
+        <galeria>
+            <foto ruta="ruta"/>
+            <foto ruta="ruta"/>
+            <foto ruta="ruta"/>
+        </galeria>
+    </coche>
+</vehiculos>

@@ -1,0 +1,56 @@
+/*Para que aparezcan los bordes de la tabla*/
+table, tr, th, td {border:1px solid #000; border-collapse:collapse; padding:5px;}
+/*En este ejercicio, se deben utilizar los colores: teal, red, blue, orange, purple, olive, fuchsia y green.*/
+#titulo {
+    color:teal;
+}
+p strong {
+    color:red;
+}
+
+span.destacado {
+    color:orange;
+}
+
+#subtitulo {
+    color:blue;
+}
+
+p a {
+    color:red;
+}
+p a em {
+    color: blue;
+}
+
+span.especial {
+    color: purple;
+}
+
+caption {
+    color: blue;
+}
+
+div#adicional{
+    color:olive;
+}
+
+span#especial {
+    color: fuchsia;
+}
+div#adicional a {
+    color:green;
+}
+tr th {
+    color:red;
+}
+tr th.especial {
+    color:orange;
+}
+
+td {
+    color: green;
+}
+td strong {
+    color: orange;
+}

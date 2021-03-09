@@ -1,0 +1,61 @@
+.Main {
+    margin: 5%;
+    background-color: orange;
+    min-height: 2vh;
+    padding: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.Main > div {
+    border: outset 5px salmon;
+    margin: 2.5%;
+}
+h1 {
+    text-align: center;
+    background-color: red;
+    border:dotted 5px black;
+    width: 60%;
+    margin:1%;
+    margin-left: 19%;
+}
+.Ingredientes, .Elaboracion {
+    padding: 7.5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.Ingredientes .Texto{
+    background-color: red;
+    border: 5px dotted white;
+    border-top: none;
+    color:black;
+    font-weight: 800;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.Ingredientes .Titulo{
+    text-align: end;
+    padding: 1px;
+    margin: 0px;
+    background-color: white;
+    border: 5px dotted red;
+    border-bottom: none;
+}
+
+.Elaboracion .Texto{
+    background-color: black;
+    border: 5px dotted white;
+    border-top: none;
+    color:red;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.Elaboracion .Titulo{
+    text-align: end;
+    padding: 1px;
+    margin: 0px;
+    background-color: white;
+    border: 5px dotted black;
+    border-bottom: none;
+}

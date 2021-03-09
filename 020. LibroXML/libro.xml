@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE libros SYSTEM "libro.dtd">
+<libros>
+    <libro>
+        <isbn>0-7645-2641-3</isbn>
+        <titulo>Titulo</titulo>
+        <nivel tratamiento="básico"/>
+        <autores>
+            <autor>Autor</autor>
+            <autor>Autor</autor>
+        </autores>
+        <editorial>Editorial</editorial>
+        <fecha_publicacion>10/02/2021</fecha_publicacion>
+        <webs>
+            <web ruta="rutaAmazon">Web Amazon</web>
+            <web ruta="rutaLaCasaDelLibro">Web LaCasaDelLibro</web>
+        </webs>
+        <precio>Precio</precio>
+    </libro>
+    <libro>
+        <isbn>0-7645-2641-3</isbn>
+        <titulo>Titulo</titulo>
+        <nivel tratamiento="básico"/>
+        <autores>
+            <autor>Autor</autor>
+        </autores>
+        <editorial>Editorial</editorial>
+        <fecha_publicacion>10/02/2021</fecha_publicacion>
+        <webs>
+            <web ruta="rutaLaCasaDelLibro">Web LaCasaDelLibro</web>
+        </webs>
+        <precio>Precio</precio>
+    </libro>
+    <libro>
+        <isbn>0-7645-2641-3</isbn>
+        <titulo>Titulo</titulo>
+        <nivel tratamiento="básico"/>
+        <autores>
+            <autor>Autor</autor>
+            <autor>Autor</autor>
+        </autores>
+        <editorial>Editorial</editorial>
+        <fecha_publicacion>10/02/2021</fecha_publicacion>
+        <webs>
+            <web ruta="rutaAmazon">Web Amazon</web>
+            <web ruta="rutaLaCasaDelLibro">Web LaCasaDelLibro</web>
+        </webs>
+        <precio>Precio</precio>
+    </libro>
+    <libro>
+        <isbn>0-7645-2641-3</isbn>
+        <titulo>Titulo</titulo>
+        <nivel tratamiento="básico"/>
+        <autores>
+            <autor>Autor</autor>
+            <autor>Autor</autor>
+        </autores>
+        <editorial>Editorial</editorial>
+        <fecha_publicacion>10/02/2021</fecha_publicacion>
+        <webs>
+            <web ruta="rutaAmazon">Web Amazon</web>
+            <web ruta="rutaLaCasaDelLibro">Web LaCasaDelLibro</web>
+        </webs>
+        <precio>Precio</precio>
+    </libro>
+    <libro>
+        <isbn>0-7645-2641-3</isbn>
+        <titulo>Titulo</titulo>
+        <nivel tratamiento="básico"/>
+        <autores>
+            <autor>Autor</autor>
+        </autores>
+        <editorial>Editorial</editorial>
+        <fecha_publicacion>10/02/2021</fecha_publicacion>
+        <webs>
+            <web ruta="rutaAmazon">Web Amazon</web>
+        </webs>
+        <precio>Precio</precio>
+    </libro>
+</libros>

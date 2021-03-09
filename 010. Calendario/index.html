@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    td {
+        text-align: center;
+    }
+    .Bordes td {
+        background: blue;
+        color:white;
+        font-weight: 800;
+        border:none;
+    }
+    .Rosa {
+        background: pink;
+        color:blue;
+        border: 3px solid blue;
+        font-weight: 800;
+    }
+    .Rojo {
+        color:Red;
+        font-size: 25px;
+    }
+    .Festivo {
+        font-size: 20px;
+        background: mediumpurple;
+        color:blue;
+        border: 3px solid blue;
+    }
+</style>
+<body>
+    <table>
+        <tr class="Bordes">
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miercoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+            <td>Sábado</td>
+            <td>Domingo</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="Rosa">1</td>
+            <td class="Rosa">2</td>
+            <td class="Festivo">3</td>
+            <td class="Festivo">4</td>
+        </tr>
+        <tr>
+            <td class="Rosa">5</td>
+            <td class="Rosa Rojo">6</td>
+            <td class="Rosa">7</td>
+            <td class="Rosa Rojo">8</td>
+            <td class="Rosa">9</td>
+            <td class="Festivo">10</td>
+            <td class="Festivo">11</td>
+        </tr>
+        <tr>
+            <td class="Rosa">12</td>
+            <td class="Rosa">13</td>
+            <td class="Rosa">14</td>
+            <td class="Rosa Rojo">15</td>
+            <td class="Rosa Rojo">16</td>
+            <td class="Festivo">17</td>
+            <td class="Festivo">18</td>
+        </tr>
+        <tr>
+            <td class="Rosa">19</td>
+            <td class="Rosa">20</td>
+            <td class="Rosa">21</td>
+            <td class="Rosa Rojo">22</td>
+            <td class="Rosa Rojo">23</td>
+            <td class="Festivo">24</td>
+            <td class="Festivo">25</td>
+        </tr>
+        <tr>
+            <td class="Rosa Rojo">26</td>
+            <td class="Rosa Rojo">27</td>
+            <td class="Rosa Rojo">28</td>
+            <td class="Rosa Rojo">29</td>
+            <td class="Rosa Rojo">30</td>
+            <td class="Festivo">31</td>
+            <td></td>
+        </tr>
+        <tr class="Bordes">
+            <td colspan="5">Laborales</td>
+            <td colspan="2">Festivos</td>
+        </tr>
+    </table>
+</body>
+</html>

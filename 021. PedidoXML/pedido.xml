@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE pedido SYSTEM "pedido.dtd">
+<pedido>
+    <producto>
+        <id>872-AA</id>
+        <precio>148.95</precio>
+        <notas>No se sabe si es eléctrica</notas>
+    </producto>
+    <producto>
+        <id>926-FH</id>
+        <precio>7.98</precio>
+        <notas></notas>
+    </producto>
+    <producto>
+        <id>926-FH</id>
+        <precio>7.98</precio>
+        <notas></notas>
+    </producto>
+    <producto>
+        <id>926-FH</id>
+        <precio>7.98</precio>
+        <notas></notas>
+    </producto>
+
+    <datoscliente>
+        <nombre>Roberto Movilla</nombre>
+        <direccionenvio>Plaza de la Duquesa12</direccionenvio>
+        <codpostal>05020</codpostal>
+        <nombrerecogedor>Alicia Abad</nombrerecogedor>
+        <direccionpago>General Ricardos 56, aquí en Madrid</direccionpago>
+        <codpostalpago>28055</codpostalpago>
+        <fechapedido>20/10/1999</fechapedido>
+        <tipoenvio tipo="rapido"/>
+    </datoscliente>
+</pedido>

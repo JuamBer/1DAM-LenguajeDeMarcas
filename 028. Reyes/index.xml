@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<reyesEspañoles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/DAM6J_GB/Documents/Lenguaje%20De%20Marcas/028.%20Reyes/index.xsd">
+  <rey>
+    <nombre>Felipe III</nombre>
+    <padre>Felipe II</padre>
+    <madre>Ana de Austria</madre>
+  </rey>
+  <reina>
+    <nombre>Juana la Loca</nombre>
+    <padre>Fernando el Católico</padre>
+    <madre>Isabel la Católica</madre>
+  </reina>
+  <rey>
+    <nombre>Carlos I</nombre>
+    <padre>Felipe el Hermoso</padre>
+    <madre>Juan la Loca</madre>
+  </rey>
+</reyesEspañoles>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="pedido">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="producto" maxOccurs="unbounded"/>
+        <xs:element ref="datoscliente"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="producto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="id" type="xs:string"/>
+        <xs:element name="precio" type="xs:string"/>
+        <xs:element name="notas" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="datoscliente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="datospago"/>
+        <xs:element ref="datosrecogedor"/>
+        <xs:element name="fechapedido" type="xs:string"/>
+        <xs:element ref="tipoenvio"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="datospago">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="direccion" type="xs:string"/>
+        <xs:element name="codpostal" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="datosrecogedor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="direccion" type="xs:string"/>
+        <xs:element name="codpostal" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tipoenvio">
+    <xs:complexType>
+      <xs:attribute name="tipo" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

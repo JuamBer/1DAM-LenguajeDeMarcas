@@ -1,0 +1,30 @@
+.Grande {
+    background-color: gray;
+    margin: 2%;
+    padding: 2%;
+}
+.Uno > h1 {
+    border: 10px solid lightgrey;
+    background: #474b4e;
+    padding: 50px;
+    color:lightgrey;
+}
+.Dos > h2 {
+    border: 10px solid #474b4e;
+    border-bottom: none;
+    padding: 50px;
+    background: lightgrey;
+    margin-bottom: none;
+
+}
+.Tres > ul {
+    border: 10px solid gray;
+    border-top: none;
+    padding: 50px;
+    list-style: none;
+    margin-top: -2%;
+    background: white;
+    border: #474b4e 5px dotted;
+    border-top: none;
+
+}

@@ -1,0 +1,61 @@
+.Main {
+    margin: 5%;
+    background-color: green;
+    min-height: 2vh;
+}
+h1 {
+    text-shadow: 0.1em 0.1em #333;
+    color:white;
+}
+div {
+margin: 10px;
+}
+.Primero {
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    border: solid black 5px;
+    padding: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 30%;
+}
+.Izquierda {
+    width: 40%;
+    background-color: red;
+    border-radius: 10px 0px 0px 10px;
+    padding: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.Izquierda p{
+    background-color: tomato;
+    padding: 5px;
+    color:white
+}
+.Derecha {
+    width: 40%;
+    margin-left: 57%;
+    background-color: Brown;
+    border-radius: 0px 10px 10px 0px;
+    padding: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.Derecha p{
+    background-color: burlywood;
+    padding: 5px;
+    color:white
+}
+.Centro {
+    width: 40%;
+    margin-left: 30%;
+    background-color: blue;
+    border: dashed 5px blueviolet;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.Centro p{
+    padding: 5px;
+    color:white;
+}

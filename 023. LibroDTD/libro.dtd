@@ -1,0 +1,16 @@
+<!ELEMENT libros (libro+)>
+<!ELEMENT libro (isbn, titulo, nivel, autores, editorial, fecha_publicacion, webs, precio)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT nivel (#PCDATA)>
+<!ATTLIST nivel
+          tratamiento CDATA #REQUIRED>
+<!ELEMENT autores (autor+)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT fecha_publicacion (#PCDATA)>
+<!ELEMENT webs (web+)>
+<!ELEMENT web (#PCDATA)>
+<!ATTLIST web
+          ruta CDATA #REQUIRED>
+<!ELEMENT precio (#PCDATA)>

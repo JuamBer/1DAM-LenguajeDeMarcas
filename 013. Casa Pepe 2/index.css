@@ -1,0 +1,42 @@
+body{
+    margin: 5%;
+    padding: 2%;
+}
+h1.uno{
+    background: #828282;
+    
+}
+nav{
+    background: yellow;
+}
+section{
+    background: blue;
+    padding: 2%;  
+    padding-top: 0%;
+}
+article{
+    border: skyblue 3px dashed;
+    
+}
+article h2.dos{
+    border-top: none;
+    border-bottom: none;
+    background: white;
+    color: blue;
+}
+article ul{
+    background: blue;
+    color: white;
+    border-top: none;
+    margin-top: -1%;
+    
+    
+}
+p.dinero{
+    color:white;
+}
+p.pie{
+    color: blue;
+    background: white;
+    margin-bottom: 10px;
+}
