@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<personas>
+  <persona>
+    <nombre>Juan Pardo</nombre>
+    <nacimiento anyo="1982" mes="Abril" dia="10"/>
+    <direccion>
+      <calle>Caoba, 1</calle>
+      <poblacion>Madrid</poblacion>
+      <provincia>Madrid</provincia>
+      <cpostal>28005</cpostal>
+    </direccion> 
+    <varon/>
+  </persona>
+
+  <persona>
+    <nombre>María López</nombre>
+    <nacimiento anyo="" mes="" dia=""/>
+    <direccion>
+      <calle>Roncato,1</calle>
+      <poblacion>Illescas</poblacion>
+      <provincia>Toledo</provincia>
+      <cpostal>45200</cpostal>
+    </direccion> 
+    <direccion>
+      <calle>: Paseo de la Esperanza 15, 1º A</calle>
+      <poblacion>Madrid</poblacion>
+      <provincia>Madrid</provincia>
+      <cpostal>28005</cpostal>
+    </direccion> 
+    <hembra/>
+  </persona>
+</personas>

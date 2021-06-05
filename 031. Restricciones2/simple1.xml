@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<alumno>
+  <nombre>juan</nombre>
+  <dni>28542345</dni>
+  <direccion>San José 2</direccion>
+  <edad>22</edad>
+  <teléfono>a959434523</teléfono>
+</alumno>

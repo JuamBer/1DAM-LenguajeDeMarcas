@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="personas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="persona" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="persona">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element ref="nacimiento"/>
+        <xs:element ref="direccion" maxOccurs="unbounded"/>
+        <xs:element ref="sexo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="sexo">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element name="varon" type="xs:string"/>
+        <xs:element name="hembra" type="xs:string"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="nacimiento">
+    <xs:complexType>
+      <xs:attribute name="anyo" ref="TipoAnyo" use="required"/>
+      <xs:attribute name="dia" ref="TipoDia" use="required"/>
+      <xs:attribute name="mes" ref="TipoMes" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+<xs:element name="TipoDia">
+  <xs:simpleType>
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="31"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+<xs:attribute name="TipoMes">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Enero"/>
+      <xs:enumeration value="Febrero"/>
+      <xs:enumeration value="Marzo"/>
+      <xs:enumeration value="Abril"/>
+      <xs:enumeration value="Mayo"/>
+      <xs:enumeration value="Junio"/>
+      <xs:enumeration value="Julio"/>
+      <xs:enumeration value="Agosto"/>
+      <xs:enumeration value="Septiembre"/>
+      <xs:enumeration value="Octubre"/>
+      <xs:enumeration value="Noviembre"/>
+      <xs:enumeration value="Diciembre"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:attribute>
+
+<xs:element name="TipoAnyo">
+  <xs:simpleType>
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1900"/>
+      <xs:maxInclusive value="2011"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+  <xs:element name="direccion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="calle" ref="TipoNombre"/>
+        <xs:element name="poblacion" ref="TipoNombre"/>
+        <xs:element name="provincia" ref="TipoNombre"/>
+        <xs:element name="cpostal" ref="TipoCodPostal"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+<xs:element name="TipoNombre">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element> 
+
+<xs:element name="TipoCodPostal">
+  <xs:simpleType>
+    <xs:restriction base="xs:integer">
+      <xs:length value="5"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element> 
+
+</xs:schema>
