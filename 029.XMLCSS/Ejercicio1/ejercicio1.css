@@ -1,0 +1,7 @@
+biblioteca {
+    margin: 10%;
+    border: 3px solid black;
+}
+titulo,autor,fechaPublicacion {
+    display: block;
+}

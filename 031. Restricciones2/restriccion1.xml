@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/juamb/Desktop/Nueva%20carpeta/restriccion1.xsd">
-  <nombre>juan</nombre>
-  <dni>28542345</dni>
-  <direccion>San José 2</direccion>
-  <edad>20</edad>
-  <teléfono>a959434523</teléfono>
-</alumno>

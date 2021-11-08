@@ -1,0 +1,11 @@
+ies {
+    margin: 10%;
+    border: 3px solid black;
+}
+nombre,
+grado,
+decretoTitulo {
+    display:list-item;
+    
+    margin-left: 35px;
+}

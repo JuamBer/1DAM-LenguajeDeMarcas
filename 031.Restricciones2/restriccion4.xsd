@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="alumno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element ref="dni"/>
+        <xs:element name="direccion" type="xs:string"/>
+        <xs:element ref="edad"/>
+        <xs:element ref="teléfono"/>
+        <xs:element ref="sexo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="dni">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:length value="9"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  
+  <xs:element name="edad">
+    <xs:simpleType>
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="16"/>
+      <xs:maxInclusive value="25"/>
+    </xs:restriction>
+  </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="teléfono">
+    <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:length value="10"/>
+    </xs:restriction>
+  </xs:simpleType>
+  </xs:element>
+  
+<xs:element name="sexo">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="M"/>
+        <xs:enumeration value="H"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  
+</xs:schema>
